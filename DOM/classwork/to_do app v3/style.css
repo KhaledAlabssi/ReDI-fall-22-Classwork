@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    list-style: none;
+    outline: none;
+}
+.yellow {
+    background-color: yellow;
+}
+body {
+    height: 100vh;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    min-height: 20rem;
+    background-color: white;
+    width: 40rem;
+    border-radius: .5rem;
+    padding: 1rem 3rem;
+}
+
+form {
+    height: 30%;
+    width: 100%;
+}
+
+form input {
+    background-color: lightgray;
+    width: 75%;
+}
+
+form button {
+    background-color: gray;
+    width: 20%;
+}
+
+
+ul li {
+    
+    width: 100%;
+
+}
+
+.done {
+    text-decoration: line-through;
+}
+i {
+    float: right;
+    margin-left: .5em;
+}
