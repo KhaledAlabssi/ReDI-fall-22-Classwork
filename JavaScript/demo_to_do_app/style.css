@@ -1,0 +1,51 @@
+*{
+    border: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: gray;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    padding: 2em;
+    background-color: white;
+    border-radius: .5em;
+    width: 22em;
+}
+
+ul li {
+    width: 18em;
+    padding: .5em;
+}
+
+input, button {
+    padding: .5em;
+}
+
+.btn {
+    background-color: #aaa;
+    float: right;
+    width: 25%;
+
+}
+
+.l-btn {
+    float: right;
+}
+
+input {
+    width: 75%;
+    background-color: #ddd;
+}
+
+.done {
+    text-decoration: line-through;
+}
