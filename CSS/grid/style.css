@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}
+
+.container {
+  background-color: gray;
+  height: 100%;
+ 
+}
+.child {
+  
+  background-color: red;
+  border: 1px solid green;
+  height: 50px;
+  width: 300px;
+}
+
+@media screen and (min-width: 600px) {
+    .container {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .child {
+        width: auto;
+    }
+    
+}

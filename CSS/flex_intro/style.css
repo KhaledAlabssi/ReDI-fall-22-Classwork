@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: red;
+    display: flex;
+    gap: 5px;
+    height: 100px;
+    align-items: center;
+    
+    flex-flow: row-reverse nowrap;
+    
+}
+
+.child {
+    height: 50px;
+    width: 100px;
+    border: 1px solid black;
+    background-color: teal;
+}
+
+.hero {
+    background-color: gray;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

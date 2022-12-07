@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f9ffd2;
+  height: 100vh;
+  width: 100vw;
+}
+.banner {
+  width: 65%;
+  height: 60%;
+  background-image: url("https://www.adac.de/-/media/images/touristik/staedte/muenchen-1912-926x383.jpg?bc=white&as=0&mh=315&mw=762&hash=F582E2E778ED6BACAE824F7A08320FF2");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  background-position: right;
+  margin: 0 auto 100px;
+  position: relative;
+}
+
+.banner p {
+  text-align: center;
+  width: 92%;
+  background-color: #ffad32;
+  font-size: 30px;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 50px;
+  margin-left: 4%;
+}
+
+main {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 32%;
+  height: 300px;
+  background-color: #def3d4;
+  border: 1px solid #378131;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.pic {
+  height: 40%;
+  background-position: center;
+  background-size: cover;
+  border-radius: 5px 5px 0 0;
+  
+}
+.pic-a {
+    background-image: url("https://www.sueddeutsche.de/image/sz.1.3343179/704x396?v=1508400235");
+
+}
+
+.card-content {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* padding: 12px; */
+}
+
+.card-content button {
+    margin: 0 10px;
+    padding: 10px;
+    background-color: #378131;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+
+}

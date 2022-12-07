@@ -1,0 +1,98 @@
+/* 
+- Desaturated Red: hsl(0, 36%, 70%)
+- Soft Red: hsl(0, 93%, 68%)
+
+### Neutral
+
+- Dark Grayish Red: hsl(0, 6%, 24%) */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+
+}
+
+header {
+    height: 10%;
+}
+
+.logo {
+    width: 40%;
+    padding: 1.5em;
+}
+
+
+
+.hero-pic {
+    height: 30%;
+    background-image: url("./images/hero-mobile.jpg");
+    background-position: top;
+    background-size: cover;
+
+
+}
+
+.main {
+    text-align: center;
+    height: 60%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.title {
+    font-size: 56px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: hsl(0, 6%, 24%);
+}
+
+.title span {
+    color: hsl(0, 36%, 70%);
+
+
+}
+p{
+    
+    color: hsl(0, 36%, 70%);
+
+}
+
+input , button {
+    height: 3em;
+}
+
+input {
+    width: 80%;
+    border-radius: 2em;
+    border: 1px solid hsl(0, 36%, 70%);
+    padding: 0 10px;
+}
+::placeholder {
+    color: hsl(0, 36%, 70%);
+
+}
+
+button {
+    margin-left: -4em;
+    width: 20%;
+    border-radius: 2em;
+    background-color: hsl(0, 36%, 70%);
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    /* code goes here */
+    
+}
+

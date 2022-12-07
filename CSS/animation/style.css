@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    border: none;
+    list-style: none;
+}
+
+span {
+    font-weight: 900;
+    color: darkred;
+}
+
+.section {
+    background-color: lightgray;
+    width: 100%;
+    height: 200px;
+    margin: 10px 0;
+}
+
+
+
+.homework-1 li {
+    color: brown;
+    font-size: larger;
+    transition: all 2s;
+}
+
+.homework-1 .li-1:hover {
+    background-color: green;
+    color: whitesmoke;
+}
+
+.homework-1 .li-2:hover {
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+.homework-1 .li-3:hover {
+
+    text-shadow: 5px 5px 3px black;
+}
+
+.homework-1 button {
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 60px;
+    font-size: larger;
+    transition: all 1s;
+}
+
+.homework-1 .btn-1:hover {
+    height: 120px;
+    border-radius: 50%;
+
+}
+
+.homework-1 .btn-2:hover {
+    box-shadow: 5px 5px 10px red;
+    font-size: x-large;
+    border-radius: 5px;
+    color: red;
+
+
+}
+
+.homework-1 .btn-3:hover {
+    
+    border-radius: 5px;
+    color: green;
+    background-color: yellow;
+
+
+}
+
+.homework-2 li {
+    transition: all 2s;
+    
+}
+
+.homework-2 .li-1:hover {
+    transform: translate(55px);
+}
+
+
+.homework-2 button {
+    width: 120px;
+    height: 60px;
+    transition: all 1s;
+}
+
+.homework-2 .btn-1:hover {
+    transform: rotate(360deg);
+
+}
+
+.homework-2 .btn-3:hover {
+    transform: skew(60deg);
+
+}
+
+.homework-2 .btn-2:hover {
+    transform: scale(2);
+
+}
+
+.element {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    border: solid 5px black;
+    animation: patrol 6s infinite;
+}
+
+.element::after{
+    content: "Let me patrol";
+}
+
+@keyframes patrol {
+    0% {
+        top: 0px;
+        left: 0px;
+        background: red;
+    }
+
+    25% {
+        top: 0px;
+        left: 500px;
+        background: blue;
+    }
+
+    50% {
+        top: 75px;
+        left: 500px;
+        background: yellow;
+    }
+
+    75% {
+        top: 75px;
+        left: 0px;
+        background: green;
+    }
+
+    100% {
+        top: 00px;
+        left: 0px;
+        background: red;
+    }
+
+}
+
+div.homework-5 {
+    height: 400px;
+}
+
+.timing-function {
+    width: 800px;
+    height: 20px;
+    background-color: white;
+}
+
+.timing-item {
+    height: 100%;
+    width: 20px;
+    background-color: yellowgreen;
+    position: relative;
+}
+
+div .linear {
+    animation: run 6s linear infinite;
+}
+
+div .ease {
+    animation: run 6s ease infinite;
+}
+
+div .ease-in {
+    animation: run 6s ease-in infinite;
+}
+
+div .ease-out {
+    animation: run 6s ease-out infinite;
+}
+
+div .ease-in-out {
+    animation: run 6s ease-in-out infinite;
+}
+
+div .cubic-bezier {
+    animation: run 6s cubic-bezier(1, -0.65, .16, 1.67) infinite;
+}
+
+
+
+@keyframes run {
+    0% {
+        
+        left: 0px;
+    }
+    50% {
+        
+        left: 780px;
+        background-color: orangered;
+    }
+    100% {
+        
+        left: 0px;
+    }
+}
+
+
