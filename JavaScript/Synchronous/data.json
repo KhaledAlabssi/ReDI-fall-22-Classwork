@@ -1,0 +1,19 @@
+{
+    "cars" : [
+        {"car1": "Civic", "color": "red", "power":3},
+        {"car2": "Golf", "color": "white", "power":2},
+        {"car3": "328", "color": "black", "power":5},
+        {"car4": "Leon", "color": "blue", "power":6}
+
+    ],
+    "employees": [
+        {
+            "name": "blaba",
+            "salary": 444
+        }
+        ,{
+            "name": "blobloblo",
+            "salary": 333
+        }],
+    "buildings": [{},{},{}]
+}
