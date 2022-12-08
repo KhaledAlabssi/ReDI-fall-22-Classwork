@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parent {
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.child {
+    height: 50px;
+    width: 50px;
+    background-color: #ff000077;
+    
+    position: relative;
+    top: 60px;
+}
+h1 {
+    border: 5px solid tomato;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.special {
+    color: red;
+    background-color: gray;
+    position: fixed;
+    top: 0;
+    left: 10px;
+    z-index: -1;
+}
+h2 {
+    background-color: white;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid greenyellow;
+    background-color: gray;
+    position: relative;
+    
+}
+.a {
+    top: 150px;
+    z-index: 2;
+    box-shadow: 3px 3px 5px black;
+}
+.b {
+    
+    top: -20px;
+    left: 10px;
+    z-index: 1;
+}
+
+.c {
+    
+    top: -40px;
+    left: 20px;
+
+}
+
+.d {
+    
+    top: -160px;
+    left: 30px;
+    z-index: 1;
+}
+
+
+
+
+
+
