@@ -1,0 +1,126 @@
+* {
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgrey;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+/* card start */
+.card {
+  background-color: white;
+  border-radius: 0.5em;
+  padding: 1em 2em;
+  box-shadow: 0 1px 5px gray;
+  transition: 0.5s;
+  min-height: 20em;
+}
+.card:hover {
+  box-shadow: 0 3px 12px gray;
+}
+/* card end */
+
+.title {
+  text-align: center;
+  color: teal;
+}
+
+/* user-input start */
+.user-input {
+  display: flex;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+.user-input > * {
+  display: inline-block;
+  padding: 0.3em;
+  margin-bottom: 1em;
+}
+
+.user-input input {
+  border-radius: 0.3em;
+  background-color: lightcyan;
+  border-top-right-radius: 0;
+  transition: .3s;
+  border-bottom-right-radius: 0;
+}
+.user-input input:hover {
+    box-shadow: 0 1px 5px lightcyan;
+}
+
+.user-input button {
+  background-color: lightcoral;
+  width: 5em;
+  border-radius: 0.3em;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.user-input button:hover {
+    box-shadow: 0 1px 5px lightcoral;
+
+}
+/* user-input end */
+
+/* item section start */
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  padding: 0.3em;
+  font-weight: 600;
+  border-radius: 0.3em;
+  margin-bottom: 0.5em;
+  background-color: lightgrey;
+  color: teal;
+  transition: 0.3s;
+}
+.item:hover {
+  box-shadow: 0 1px 5px gray;
+}
+.item button {
+  background-color: #ffffff00;
+  cursor: pointer;
+}
+.item button:hover {
+  transform: scale(1.05);
+}
+.edit-btn {
+  color: darkslategray;
+  margin-right: -0.4em;
+}
+.delete-btn {
+  color: darkred;
+}
+
+/* done class */
+.done {
+  text-decoration: line-through;
+  text-decoration-color: lightcoral;
+  text-decoration-thickness: 0.2em;
+}
+
+.icon {
+    display: block;
+    font-size: 3em;
+    width: 1em;
+    margin: 1em auto;
+    color: teal;
+}
+
+.invi {
+    position: absolute;
+    visibility: hidden;
+    z-index: -2;
+}
+
+@media screen and (min-width: 700px) {
+}
