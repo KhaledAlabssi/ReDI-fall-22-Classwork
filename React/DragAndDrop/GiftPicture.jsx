@@ -1,7 +1,7 @@
 import React from "react";
 import { useDrag } from "react-dnd";
 
-function GiftPicture({ url, id }) {
+function GiftPicture({ id, url }) {
   const [{ isDragging }, drag] = useDrag(() => ({
     type: "image",
     item: { id: id },
@@ -10,15 +10,14 @@ function GiftPicture({ url, id }) {
     }),
   }));
   return (
-    <>
+    <div>
       <img
-        width={"200px"}
-        height={"200px"}
+      width={'200px'}
         src={url}
         ref={drag}
-        style={{ border: isDragging ? "5px solid #fff" : "0px" }}
+        style={{ border: isDragging ? "5px solid #333" : "0px" }}
       />
-    </>
+    </div>
   );
 }
 
